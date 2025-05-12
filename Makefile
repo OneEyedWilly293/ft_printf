@@ -6,7 +6,7 @@
 #    By: jgueon <jgueon@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/10 12:35:46 by jgueon            #+#    #+#              #
-#    Updated: 2025/05/12 18:33:45 by jgueon           ###   ########.fr        #
+#    Updated: 2025/05/12 18:48:34 by jgueon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ SOURCES := ft_printf.c \
 			ft_putnbr_unsigned.c \
 			ft_puthex.c \
 			ft_putptr.c \
+			ft_putstr.c \
 			ft_process_format.c \
 
 OBJECTS := $(SOURCES:%.c=%.o)
@@ -25,7 +26,7 @@ NAME := libftprintf.a
 CFLAGS := -Wall -Wextra -Werror
 
 $(NAME): $(OBJECTS)
-		ar -rcs $@ $^
+		ar -rcs $(NAME) $(OBJECTS)
 
 %.o : %.c %(HEADERS)
 		cc -c $< -o $@ $(CFLAGS)
