@@ -1,0 +1,33 @@
+Already up to date.
+[36mmake[1]: Entering directory '/home/jgueon/ft_printf'
+cc -Wall -Wextra -Werror   -c -o ft_printf.o ft_printf.c
+cc -Wall -Wextra -Werror   -c -o ft_putchar.o ft_putchar.c
+cc -Wall -Wextra -Werror   -c -o ft_putnbr.o ft_putnbr.c
+cc -Wall -Wextra -Werror   -c -o ft_putnbr_unsigned.o ft_putnbr_unsigned.c
+cc -Wall -Wextra -Werror   -c -o ft_puthex.o ft_puthex.c
+cc -Wall -Wextra -Werror   -c -o ft_putptr.o ft_putptr.c
+cc -Wall -Wextra -Werror   -c -o ft_putstr.o ft_putstr.c
+cc -Wall -Wextra -Werror   -c -o ft_process_format.o ft_process_format.c
+ar -rcs libftprintf.a ft_printf.o ft_putchar.o ft_putnbr.o ft_putnbr_unsigned.o ft_puthex.o ft_putptr.o ft_putstr.o ft_process_format.o
+make[1]: Leaving directory '/home/jgueon/ft_printf'
+[34m[Mandatory]
+[93mcategory: c[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [0m
+[93mcategory: s[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [0m
+[93mcategory: p[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [0m
+[93mcategory: d[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: i[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: u[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [0m
+[93mcategory: x[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [0m
+[93mcategory: X[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [32m8.OK [32m9.OK [32m10.OK [32m11.OK [32m12.OK [32m13.OK [32m14.OK [32m15.OK [32m16.OK [32m17.OK [32m18.OK [32m19.OK [32m20.OK [32m21.OK [32m22.OK [32m23.OK [32m24.OK [32m25.OK [32m26.OK [32m27.OK [32m28.OK [32m29.OK [32m30.OK [32m31.OK [0m
+[93mcategory: %[0m
+[32m1.OK [32m2.OK [32m3.OK [32m4.OK [32m5.OK [32m6.OK [32m7.OK [0m
+[93mcategory: mix[0m
+[32m1.OK [0m
