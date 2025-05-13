@@ -1,0 +1,9 @@
+ft_printf.c: OK!
+ft_printf.h: OK!
+ft_process_format.c: OK!
+ft_putchar.c: OK!
+ft_puthex.c: OK!
+ft_putnbr_unsigned.c: OK!
+ft_putnbr.c: OK!
+ft_putptr.c: OK!
+ft_putstr.c: OK!

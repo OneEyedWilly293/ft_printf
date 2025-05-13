@@ -6,7 +6,7 @@
 /*   By: jgueon <jgueon@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 18:08:36 by jgueon            #+#    #+#             */
-/*   Updated: 2025/05/12 18:31:14 by jgueon           ###   ########.fr       */
+/*   Updated: 2025/05/13 16:34:48 by jgueon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,22 +42,3 @@ int	ft_printf(const char *format, ...)
 	va_end(args);
 	return (count);
 }
-
-/*
-** Example usage:
-** int main(void)
-** {
-**     ft_printf("Hello %s! Number: %d, Hex: %x, Char: %c, Ptr: %p, Percent: %%\n",
-**         "world", 42, 255, 'A', &main);
-**     return (0);
-** }
-*/
-
-/*
-** Explanation:
-** - Each helper function is responsible for a specific output type.
-** - No forbidden constructs (ternary, for, while, switch, etc.) are used.
-** - The code is split into small functions to comply with line limits and for clarity.
-** - The main ft_printf function parses the format string and delegates to helper functions.
-** - Only the mandatory specifiers are handled for simplicity.
-*/

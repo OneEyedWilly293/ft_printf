@@ -6,7 +6,7 @@
 /*   By: jgueon <jgueon@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 18:21:36 by jgueon            #+#    #+#             */
-/*   Updated: 2025/05/12 18:30:39 by jgueon           ###   ########.fr       */
+/*   Updated: 2025/05/13 14:08:25 by jgueon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,12 @@ int	ft_putptr(void *ptr)
 
 	count = 0;
 	addr = (unsigned long)ptr;
-	count += ft_putstr("0x");
 	if (addr == 0)
-		count += ft_putchar('0');
-	else
-		count += ft_puthex(addr, 0);
+	{
+		count += ft_putstr("(nil)");
+		return (count);
+	}
+	count += ft_putstr("0x");
+	count += ft_puthex(addr, 0);
 	return (count);
 }
