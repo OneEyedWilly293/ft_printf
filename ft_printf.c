@@ -6,7 +6,7 @@
 /*   By: jgueon <jgueon@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 18:08:36 by jgueon            #+#    #+#             */
-/*   Updated: 2025/05/13 16:34:48 by jgueon           ###   ########.fr       */
+/*   Updated: 2025/05/13 18:56:42 by jgueon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_printf(const char *format, ...)
 	{
 		if (format[i] == '%' && format[i + 1])
 		{
-			count += ft_process_format(format[i + 1], args);
+			count += ft_process_format(format[i + 1], &args);
 			i += 2;
 		}
 		else

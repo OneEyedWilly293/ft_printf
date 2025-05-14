@@ -6,7 +6,7 @@
 /*   By: jgueon <jgueon@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 17:59:10 by jgueon            #+#    #+#             */
-/*   Updated: 2025/05/13 16:35:36 by jgueon           ###   ########.fr       */
+/*   Updated: 2025/05/13 18:56:25 by jgueon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_putnbr(int n);
 int		ft_putnbr_unsigned(unsigned int n);
 int		ft_puthex(unsigned long n, int uppercase);
 int		ft_putptr(void *ptr);
-int		ft_process_format(char specifier, va_list args);
+int		ft_process_format(char specifier, va_list *args);
 int		ft_printf(const char *format, ...);
 
 #endif
